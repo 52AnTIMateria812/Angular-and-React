@@ -1,0 +1,7 @@
+import React from 'react';
+
+function Greeting({ name = 'гость', greeting = 'Привет' }) {
+  return <p>{greeting}, {name}!</p>;
+}
+
+export default Greeting;
